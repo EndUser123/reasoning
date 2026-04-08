@@ -1,0 +1,188 @@
+{"timestamp": 1773201232.719893, "hook": "Stop_self_reflection", "response_length": 251, "result": "passed"}
+{"timestamp": 1773201264.479481, "hook": "Stop_self_reflection", "response_length": 251, "result": "passed"}
+{"timestamp": 1773201307.521136, "hook": "Stop_self_reflection", "response_length": 385, "result": "passed"}
+{"timestamp": 1773201399.1520116, "hook": "Stop_self_reflection", "response_length": 243, "result": "issues_found"}
+{"timestamp": 1773202261.2156646, "hook": "Stop_self_reflection", "response_length": 288, "result": "passed"}
+{"timestamp": 1773202313.8469386, "hook": "Stop_self_reflection", "response_length": 288, "result": "passed"}
+{"timestamp": 1773202335.055396, "hook": "Stop_self_reflection", "response_length": 227, "result": "issues_found"}
+{"timestamp": 1773202344.630452, "hook": "Stop_self_reflection", "response_length": 203, "result": "passed"}
+{"timestamp": 1773202360.503262, "hook": "Stop_self_reflection", "response_length": 305, "result": "passed"}
+{"timestamp": 1773203440.8783755, "hook": "Stop_self_reflection", "response_length": 237, "result": "passed"}
+{"timestamp": 1773203461.1559832, "hook": "Stop_self_reflection", "response_length": 409, "result": "passed"}
+{"timestamp": 1773203520.5198493, "hook": "Stop_self_reflection", "response_length": 545, "result": "issues_found"}
+{"timestamp": 1773227963.520597, "hook": "Stop_reasoning_quality_gate", "response_length": 276, "result": "issues_found"}
+{"timestamp": 1773227985.432227, "hook": "Stop_reasoning_quality_gate", "response_length": 276, "result": "issues_found"}
+{"timestamp": 1773228785.9558103, "hook": "Stop_reasoning_quality_gate", "response_length": 5, "result": "issues_found"}
+{"timestamp": 1773234875.6467526, "hook": "Stop_reasoning_quality_gate", "response_length": 329, "result": "issues_found"}
+{"timestamp": 1773234984.283684, "hook": "Stop_reasoning_quality_gate", "response_length": 32, "result": "passed"}
+{"timestamp": 1773234994.4967933, "hook": "Stop_reasoning_quality_gate", "response_length": 29, "result": "passed"}
+{"timestamp": 1773235022.3397603, "hook": "Stop_reasoning_quality_gate", "response_length": 29, "result": "passed"}
+{"timestamp": 1773235030.6354265, "hook": "Stop_reasoning_quality_gate", "response_length": 55, "result": "issues_found"}
+{"timestamp": 1773235039.7704983, "hook": "Stop_reasoning_quality_gate", "response_length": 52, "result": "issues_found"}
+{"timestamp": 1773235047.3670797, "hook": "Stop_reasoning_quality_gate", "response_length": 67, "result": "passed"}
+{"timestamp": 1773235066.7249222, "hook": "Stop_reasoning_quality_gate", "response_length": 67, "result": "passed"}
+{"timestamp": 1773235077.7526853, "hook": "Stop_reasoning_quality_gate", "response_length": 60, "result": "issues_found"}
+{"timestamp": 1773235100.6584885, "hook": "Stop_reasoning_quality_gate", "response_length": 49, "result": "issues_found"}
+{"timestamp": 1773235111.7974982, "hook": "Stop_reasoning_quality_gate", "response_length": 36, "result": "passed"}
+{"timestamp": 1773271403.8020175, "hook": "Stop_reasoning_quality_gate", "response_length": 334, "result": "passed"}
+{"timestamp": 1773271403.9060912, "hook": "Stop_reasoning_enhanced", "response_length": 334, "elapsed_ms": 3.03, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1773271415.426478, "hook": "Stop_reasoning_enhanced", "response_length": 334, "elapsed_ms": 3.04, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1773272693.1116571, "hook": "PreTool_multi_agent_reasoning", "query_length": 33, "elapsed_ms": 2451.31, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773287270.536506, "hook": "PreTool_multi_agent_reasoning", "query_length": 3290, "elapsed_ms": 2423.62, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773287860.4432497, "hook": "PreTool_multi_agent_reasoning", "query_length": 71, "elapsed_ms": 1918.15, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773287879.406279, "hook": "PreTool_multi_agent_reasoning", "query_length": 72, "elapsed_ms": 2046.38, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773289900.3130121, "hook": "PreTool_multi_agent_reasoning", "query_length": 122, "elapsed_ms": 1787.14, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773289915.2480617, "hook": "PreTool_multi_agent_reasoning", "query_length": 99, "elapsed_ms": 1821.07, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773290734.248797, "hook": "PreTool_multi_agent_reasoning", "query_length": 90, "elapsed_ms": 1878.37, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773291749.3160787, "hook": "PreTool_multi_agent_reasoning", "query_length": 5603, "elapsed_ms": 2066.74, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773323204.1353393, "hook": "PreTool_multi_agent_reasoning", "query_length": 1453, "elapsed_ms": 2815.12, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773323627.6230462, "hook": "PreTool_multi_agent_reasoning", "query_length": 1245, "elapsed_ms": 2351.41, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773324330.6035457, "hook": "PreTool_multi_agent_reasoning", "query_length": 28229, "elapsed_ms": 1976.21, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773324743.0743809, "hook": "Stop_reasoning_enhanced", "response_length": 55, "elapsed_ms": 0.77, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1773324743.0766382, "hook": "Stop_reasoning_enhanced", "response_length": 51, "elapsed_ms": 0.98, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1773324743.0784278, "hook": "Stop_reasoning_enhanced", "response_length": 64, "elapsed_ms": 1.12, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1773324743.0804923, "hook": "Stop_reasoning_enhanced", "response_length": 76, "elapsed_ms": 1.41, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1773324743.1369765, "hook": "PreTool_multi_agent_reasoning", "query_length": 57, "elapsed_ms": 44.72, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773324743.1843204, "hook": "PreTool_multi_agent_reasoning", "query_length": 47, "elapsed_ms": 46.34, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773343400.9340248, "hook": "PreTool_multi_agent_reasoning", "query_length": 1174, "elapsed_ms": 3301.94, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773357154.0436583, "hook": "PreTool_multi_agent_reasoning", "query_length": 692, "elapsed_ms": 2331.26, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773357154.0811057, "hook": "PreTool_multi_agent_reasoning", "query_length": 705, "elapsed_ms": 2368.6, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773359399.3514183, "hook": "PreTool_multi_agent_reasoning", "query_length": 8439, "elapsed_ms": 1807.41, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773359454.6019719, "hook": "PreTool_multi_agent_reasoning", "query_length": 8331, "elapsed_ms": 2043.25, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773359474.4202266, "hook": "PreTool_multi_agent_reasoning", "query_length": 8336, "elapsed_ms": 2276.8, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773375746.9477005, "hook": "PreTool_multi_agent_reasoning", "query_length": 712, "elapsed_ms": 2852.37, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773376241.6231227, "hook": "PreTool_multi_agent_reasoning", "query_length": 806, "elapsed_ms": 2095.7, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773376249.262845, "hook": "PreTool_multi_agent_reasoning", "query_length": 806, "elapsed_ms": 1913.24, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773376643.8772974, "hook": "PreTool_multi_agent_reasoning", "query_length": 839, "elapsed_ms": 2295.54, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773376977.903611, "hook": "PreTool_multi_agent_reasoning", "query_length": 977, "elapsed_ms": 1931.29, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773377131.732365, "hook": "PreTool_multi_agent_reasoning", "query_length": 844, "elapsed_ms": 2027.81, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773378625.332204, "hook": "PreTool_multi_agent_reasoning", "query_length": 355, "elapsed_ms": 2355.28, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773411230.556064, "hook": "PreTool_multi_agent_reasoning", "query_length": 1420, "elapsed_ms": 2993.46, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773415239.4568505, "hook": "PreTool_multi_agent_reasoning", "query_length": 931, "elapsed_ms": 3032.72, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773419184.6411026, "hook": "PreTool_multi_agent_reasoning", "query_length": 1007, "elapsed_ms": 2057.68, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773419227.8918376, "hook": "PreTool_multi_agent_reasoning", "query_length": 749, "elapsed_ms": 1945.42, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773419237.039072, "hook": "PreTool_multi_agent_reasoning", "query_length": 801, "elapsed_ms": 2496.78, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773424695.1259277, "hook": "PreTool_multi_agent_reasoning", "query_length": 2448, "elapsed_ms": 2737.77, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773424986.4171264, "hook": "PreTool_multi_agent_reasoning", "query_length": 2442, "elapsed_ms": 1874.03, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773425278.156853, "hook": "PreTool_multi_agent_reasoning", "query_length": 1540, "elapsed_ms": 2028.92, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773425623.6921234, "hook": "PreTool_multi_agent_reasoning", "query_length": 1461, "elapsed_ms": 1975.46, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773425857.3237739, "hook": "PreTool_multi_agent_reasoning", "query_length": 1264, "elapsed_ms": 2019.53, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773426034.927699, "hook": "PreTool_multi_agent_reasoning", "query_length": 1316, "elapsed_ms": 1988.37, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773508325.0070763, "hook": "PreTool_multi_agent_reasoning", "query_length": 581, "elapsed_ms": 2778.67, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773508325.0125508, "hook": "PreTool_multi_agent_reasoning", "query_length": 570, "elapsed_ms": 2723.47, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773509957.8925352, "hook": "PreTool_multi_agent_reasoning", "query_length": 2333, "elapsed_ms": 2421.92, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773509957.9074833, "hook": "PreTool_multi_agent_reasoning", "query_length": 2304, "elapsed_ms": 2436.52, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773509957.9266627, "hook": "PreTool_multi_agent_reasoning", "query_length": 2300, "elapsed_ms": 2455.21, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773510064.680076, "hook": "PreTool_multi_agent_reasoning", "query_length": 25906, "elapsed_ms": 2033.95, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773510066.8726974, "hook": "PreTool_multi_agent_reasoning", "query_length": 1336, "elapsed_ms": 2023.05, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773510066.9105945, "hook": "PreTool_multi_agent_reasoning", "query_length": 1050, "elapsed_ms": 2073.86, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773510692.14124, "hook": "PreTool_multi_agent_reasoning", "query_length": 899, "elapsed_ms": 2190.24, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773510692.186054, "hook": "PreTool_multi_agent_reasoning", "query_length": 884, "elapsed_ms": 2236.13, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773510788.5504432, "hook": "PreTool_multi_agent_reasoning", "query_length": 639, "elapsed_ms": 2233.94, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773511220.3125143, "hook": "PreTool_multi_agent_reasoning", "query_length": 10682, "elapsed_ms": 2062.14, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773516945.071883, "hook": "PreTool_multi_agent_reasoning", "query_length": 26966, "elapsed_ms": 1948.41, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528576.5383985, "hook": "PreTool_multi_agent_reasoning", "query_length": 1126, "elapsed_ms": 2861.88, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528591.4921496, "hook": "PreTool_multi_agent_reasoning", "query_length": 1093, "elapsed_ms": 2073.92, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528611.0375476, "hook": "PreTool_multi_agent_reasoning", "query_length": 1137, "elapsed_ms": 2251.67, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528625.5690677, "hook": "PreTool_multi_agent_reasoning", "query_length": 1123, "elapsed_ms": 1987.68, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528640.6242008, "hook": "PreTool_multi_agent_reasoning", "query_length": 1057, "elapsed_ms": 2232.9, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528763.945532, "hook": "PreTool_multi_agent_reasoning", "query_length": 938, "elapsed_ms": 2331.7, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773528806.015018, "hook": "PreTool_multi_agent_reasoning", "query_length": 280, "elapsed_ms": 1997.95, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773529216.2127564, "hook": "PreTool_multi_agent_reasoning", "query_length": 667, "elapsed_ms": 2588.43, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773529216.2541885, "hook": "PreTool_multi_agent_reasoning", "query_length": 842, "elapsed_ms": 2629.18, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773529274.9459064, "hook": "PreTool_multi_agent_reasoning", "query_length": 5070, "elapsed_ms": 1872.24, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773529300.4729052, "hook": "PreTool_multi_agent_reasoning", "query_length": 2724, "elapsed_ms": 1938.55, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773529335.1193442, "hook": "PreTool_multi_agent_reasoning", "query_length": 3669, "elapsed_ms": 1851.83, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773531727.4258819, "hook": "PreTool_multi_agent_reasoning", "query_length": 1280, "elapsed_ms": 2398.05, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773531727.4680037, "hook": "PreTool_multi_agent_reasoning", "query_length": 1007, "elapsed_ms": 2439.14, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773547911.95062, "hook": "PreTool_multi_agent_reasoning", "query_length": 554, "elapsed_ms": 2485.19, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773548074.7631307, "hook": "PreTool_multi_agent_reasoning", "query_length": 921, "elapsed_ms": 1867.28, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773548182.2498164, "hook": "PreTool_multi_agent_reasoning", "query_length": 776, "elapsed_ms": 2281.69, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773548512.947793, "hook": "PreTool_multi_agent_reasoning", "query_length": 893, "elapsed_ms": 2151.04, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773549047.0080075, "hook": "PreTool_multi_agent_reasoning", "query_length": 785, "elapsed_ms": 2598.9, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773549432.247795, "hook": "PreTool_multi_agent_reasoning", "query_length": 617, "elapsed_ms": 2098.13, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773549432.2885847, "hook": "PreTool_multi_agent_reasoning", "query_length": 858, "elapsed_ms": 2054.94, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773549432.318782, "hook": "PreTool_multi_agent_reasoning", "query_length": 690, "elapsed_ms": 2166.75, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773553454.5957718, "hook": "PreTool_multi_agent_reasoning", "query_length": 22574, "elapsed_ms": 3095.28, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773554289.4758403, "hook": "PreTool_multi_agent_reasoning", "query_length": 31037, "elapsed_ms": 2407.24, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773554945.4993174, "hook": "PreTool_multi_agent_reasoning", "query_length": 32912, "elapsed_ms": 2360.46, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555127.3944988, "hook": "PreTool_multi_agent_reasoning", "query_length": 6254, "elapsed_ms": 2129.87, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555164.0661123, "hook": "PreTool_multi_agent_reasoning", "query_length": 6126, "elapsed_ms": 2433.47, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555164.1067011, "hook": "PreTool_multi_agent_reasoning", "query_length": 6122, "elapsed_ms": 2480.04, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555164.1288083, "hook": "PreTool_multi_agent_reasoning", "query_length": 6119, "elapsed_ms": 2501.85, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555165.938399, "hook": "PreTool_multi_agent_reasoning", "query_length": 1259, "elapsed_ms": 2169.88, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555189.3935313, "hook": "PreTool_multi_agent_reasoning", "query_length": 6116, "elapsed_ms": 2325.03, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555189.4144006, "hook": "PreTool_multi_agent_reasoning", "query_length": 6141, "elapsed_ms": 2345.75, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555189.493233, "hook": "PreTool_multi_agent_reasoning", "query_length": 6132, "elapsed_ms": 2353.37, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773555310.9859467, "hook": "PreTool_multi_agent_reasoning", "query_length": 1137, "elapsed_ms": 2110.21, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773556039.3031204, "hook": "PreTool_multi_agent_reasoning", "query_length": 1110, "elapsed_ms": 2164.68, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773556050.7779956, "hook": "PreTool_multi_agent_reasoning", "query_length": 1175, "elapsed_ms": 2177.5, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773556153.658379, "hook": "PreTool_multi_agent_reasoning", "query_length": 781, "elapsed_ms": 2782.67, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773556153.6902063, "hook": "PreTool_multi_agent_reasoning", "query_length": 1087, "elapsed_ms": 2813.08, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773556326.244531, "hook": "PreTool_multi_agent_reasoning", "query_length": 1283, "elapsed_ms": 2332.69, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773556699.5451527, "hook": "PreTool_multi_agent_reasoning", "query_length": 1591, "elapsed_ms": 2025.06, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773586332.1156354, "hook": "PreTool_multi_agent_reasoning", "query_length": 652, "elapsed_ms": 4756.91, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773586332.1372974, "hook": "PreTool_multi_agent_reasoning", "query_length": 593, "elapsed_ms": 4775.29, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773586395.0517337, "hook": "PreTool_multi_agent_reasoning", "query_length": 59, "elapsed_ms": 2746.23, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773586709.837953, "hook": "PreTool_multi_agent_reasoning", "query_length": 726, "elapsed_ms": 2782.97, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773586709.843484, "hook": "PreTool_multi_agent_reasoning", "query_length": 629, "elapsed_ms": 2707.24, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773586916.870553, "hook": "PreTool_multi_agent_reasoning", "query_length": 1103, "elapsed_ms": 3658.16, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773587302.6122432, "hook": "PreTool_multi_agent_reasoning", "query_length": 1015, "elapsed_ms": 2499.65, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773587302.6403968, "hook": "PreTool_multi_agent_reasoning", "query_length": 908, "elapsed_ms": 2525.67, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773588012.47807, "hook": "PreTool_multi_agent_reasoning", "query_length": 1151, "elapsed_ms": 2571.72, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773588410.233049, "hook": "PreTool_multi_agent_reasoning", "query_length": 1987, "elapsed_ms": 2199.79, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773588538.9520426, "hook": "PreTool_multi_agent_reasoning", "query_length": 1690, "elapsed_ms": 2266.36, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773588538.9569001, "hook": "PreTool_multi_agent_reasoning", "query_length": 1571, "elapsed_ms": 2269.75, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773588988.1795254, "hook": "PreTool_multi_agent_reasoning", "query_length": 3192, "elapsed_ms": 2133.4, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773589821.8228137, "hook": "PreTool_multi_agent_reasoning", "query_length": 4260, "elapsed_ms": 2433.26, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773589834.2895315, "hook": "PreTool_multi_agent_reasoning", "query_length": 4907, "elapsed_ms": 2108.64, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773589834.3657548, "hook": "PreTool_multi_agent_reasoning", "query_length": 4527, "elapsed_ms": 2118.36, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773595925.416593, "hook": "PreTool_multi_agent_reasoning", "query_length": 15797, "elapsed_ms": 3374.64, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773596091.3639708, "hook": "PreTool_multi_agent_reasoning", "query_length": 15843, "elapsed_ms": 2281.99, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773603767.2864509, "hook": "PreTool_multi_agent_reasoning", "query_length": 35035, "elapsed_ms": 2817.4, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773603920.4263415, "hook": "PreTool_multi_agent_reasoning", "query_length": 403, "elapsed_ms": 2296.18, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773604338.038223, "hook": "PreTool_multi_agent_reasoning", "query_length": 782, "elapsed_ms": 2244.28, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773604338.0914857, "hook": "PreTool_multi_agent_reasoning", "query_length": 729, "elapsed_ms": 2304.22, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773604338.139541, "hook": "PreTool_multi_agent_reasoning", "query_length": 870, "elapsed_ms": 2347.19, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773604360.912287, "hook": "PreTool_multi_agent_reasoning", "query_length": 193, "elapsed_ms": 2700.34, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773604639.322451, "hook": "PreTool_multi_agent_reasoning", "query_length": 437, "elapsed_ms": 2381.91, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773606117.5559967, "hook": "PreTool_multi_agent_reasoning", "query_length": 1112, "elapsed_ms": 2664.11, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773606117.6344917, "hook": "PreTool_multi_agent_reasoning", "query_length": 1144, "elapsed_ms": 2739.42, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773606117.6636806, "hook": "PreTool_multi_agent_reasoning", "query_length": 1030, "elapsed_ms": 2773.43, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773606437.2239234, "hook": "PreTool_multi_agent_reasoning", "query_length": 1606, "elapsed_ms": 2303.11, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773611460.2412736, "hook": "PreTool_multi_agent_reasoning", "query_length": 906, "elapsed_ms": 2807.69, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773614971.8154447, "hook": "PreTool_multi_agent_reasoning", "query_length": 1002, "elapsed_ms": 2785.77, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773615344.545674, "hook": "PreTool_multi_agent_reasoning", "query_length": 1662, "elapsed_ms": 2205.0, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616135.4263518, "hook": "PreTool_multi_agent_reasoning", "query_length": 8131, "elapsed_ms": 2576.61, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616135.4312747, "hook": "PreTool_multi_agent_reasoning", "query_length": 5075, "elapsed_ms": 2582.88, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616135.4565349, "hook": "PreTool_multi_agent_reasoning", "query_length": 14908, "elapsed_ms": 2602.58, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616279.5436323, "hook": "PreTool_multi_agent_reasoning", "query_length": 1190, "elapsed_ms": 2432.4, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616384.844483, "hook": "PreTool_multi_agent_reasoning", "query_length": 17269, "elapsed_ms": 2110.34, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616424.3787026, "hook": "PreTool_multi_agent_reasoning", "query_length": 17269, "elapsed_ms": 2226.29, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616461.196157, "hook": "PreTool_multi_agent_reasoning", "query_length": 17269, "elapsed_ms": 2180.2, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616486.485925, "hook": "PreTool_multi_agent_reasoning", "query_length": 17269, "elapsed_ms": 2283.84, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616509.9433098, "hook": "PreTool_multi_agent_reasoning", "query_length": 17269, "elapsed_ms": 2073.0, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773616533.535714, "hook": "PreTool_multi_agent_reasoning", "query_length": 17269, "elapsed_ms": 2307.23, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773617132.5199056, "hook": "PreTool_multi_agent_reasoning", "query_length": 17174, "elapsed_ms": 2570.11, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773626729.5829248, "hook": "PreTool_multi_agent_reasoning", "query_length": 1130, "elapsed_ms": 3016.06, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773670387.4617848, "hook": "PreTool_multi_agent_reasoning", "query_length": 20222, "elapsed_ms": 3797.95, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773679490.9713504, "hook": "PreTool_multi_agent_reasoning", "query_length": 471, "elapsed_ms": 2603.23, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1773680221.6239712, "hook": "PreTool_multi_agent_reasoning", "query_length": 19857, "elapsed_ms": 2113.73, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1774553424.9702268, "hook": "Stop_reasoning_enhanced", "response_length": 55, "elapsed_ms": 0.83, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1774553424.9724631, "hook": "Stop_reasoning_enhanced", "response_length": 51, "elapsed_ms": 1.41, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1774553424.9748764, "hook": "Stop_reasoning_enhanced", "response_length": 64, "elapsed_ms": 1.54, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1774553424.9776978, "hook": "Stop_reasoning_enhanced", "response_length": 76, "elapsed_ms": 2.0, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1774553425.0733218, "hook": "PreTool_multi_agent_reasoning", "query_length": 57, "elapsed_ms": 78.96, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1774553425.1518896, "hook": "PreTool_multi_agent_reasoning", "query_length": 47, "elapsed_ms": 77.38, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1774555959.3682468, "hook": "Stop_reasoning_enhanced", "response_length": 55, "elapsed_ms": 0.78, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1774555959.3703933, "hook": "Stop_reasoning_enhanced", "response_length": 51, "elapsed_ms": 0.98, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1774555959.3721204, "hook": "Stop_reasoning_enhanced", "response_length": 64, "elapsed_ms": 1.09, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1774555959.3741863, "hook": "Stop_reasoning_enhanced", "response_length": 76, "elapsed_ms": 1.42, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1774555959.4658167, "hook": "PreTool_multi_agent_reasoning", "query_length": 57, "elapsed_ms": 79.31, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1774555959.5436084, "hook": "PreTool_multi_agent_reasoning", "query_length": 47, "elapsed_ms": 76.77, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1774576359.7949128, "hook": "Stop_reasoning_enhanced", "response_length": 55, "elapsed_ms": 0.88, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1774576359.7972372, "hook": "Stop_reasoning_enhanced", "response_length": 51, "elapsed_ms": 1.05, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1774576359.799019, "hook": "Stop_reasoning_enhanced", "response_length": 64, "elapsed_ms": 1.11, "quality_score": 0.9541666666666666, "result": "improved"}
+{"timestamp": 1774576359.8010716, "hook": "Stop_reasoning_enhanced", "response_length": 76, "elapsed_ms": 1.41, "quality_score": 0.975, "result": "improved"}
+{"timestamp": 1774576359.8893409, "hook": "PreTool_multi_agent_reasoning", "query_length": 57, "elapsed_ms": 74.02, "quality_score": 1.0, "result": "agent_outputs"}
+{"timestamp": 1774576359.95887, "hook": "PreTool_multi_agent_reasoning", "query_length": 47, "elapsed_ms": 68.52, "quality_score": 1.0, "result": "agent_outputs"}
