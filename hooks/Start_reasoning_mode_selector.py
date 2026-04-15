@@ -143,24 +143,11 @@ def process_prompt(data: dict) -> dict:
         mode_name = result["mode"]
         confidence = result["confidence"]
 
-        # Map mode names to tags
-        # Note: [GRA] is used for graph mode to avoid collision with [COG]
-        # which is reserved for cognitive frameworks (cognitive_enhancers.py)
-        mode_tags = {
-            "sequential": "[SEQ]",
-            "multi_agent": "[MAS]",
-            "graph": "[GRA]",  # Graph Reasoning Alternative (avoid [COG] collision)
-            "two_stage": "[2ST]"
-        }
-        tag = mode_tags.get(mode_name, "[SEQ]")
-
         context = (
             f"Reasoning mode: {mode_name}\n"
             f"Confidence: {confidence}/4\n"
             f"Using {mode_name} reasoning approach for this query.\n\n"
-            f"**TAG EMISSION REQUIRED**: Begin your response with '{tag}' tag "
-            f"to indicate the active reasoning mode. This provides visibility into "
-            f"which reasoning approach is being used."
+            f"Keep the active reasoning mode internal. Do not surface mode tags in the response."
         )
 
         return {

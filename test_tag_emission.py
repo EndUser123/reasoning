@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Simple prompt-based test for cognitive and reasoning tag emission.
+"""Simple prompt-based test for cognitive and reasoning telemetry.
 
 This test verifies that both cognitive frameworks and reasoning modes
-emit visible tags when triggered by prompts.
+emit observable routing metadata without surfacing tag tokens to the LLM.
 
 Usage:
     # Test cognitive frameworks
@@ -16,7 +16,7 @@ import sys
 
 
 def test_cognitive_frameworks():
-    """Test that cognitive frameworks emit [COG] tag."""
+    """Test that cognitive frameworks emit telemetry without tag tokens."""
     from UserPromptSubmit_modules.base import HookContext
     from UserPromptSubmit_modules.cognitive_enhancers import cognitive_enhancers
 
@@ -38,17 +38,17 @@ def test_cognitive_frameworks():
     print(result.context or "(no context)")
     print(f"\nTokens: {result.tokens}")
 
-    # Verify [COG] tag is present
-    if result.context and "[COG]" in result.context:
-        print("\n✓ [COG] tag detected - PASS")
+    # Verify telemetry is present without visible tag tokens
+    if result.context and "Assumption Surfacing" in result.context and "[COG]" not in result.context:
+        print("\n✓ Cognitive telemetry detected without tag token - PASS")
         return True
     else:
-        print("\n✗ [COG] tag NOT detected - FAIL")
+        print("\n✗ Cognitive telemetry missing or tag token leaked - FAIL")
         return False
 
 
 def test_rationale_generation():
-    """Test that tag headers include 'Why:' rationale line."""
+    """Test that telemetry includes a 'Why:' rationale line."""
     from UserPromptSubmit_modules.base import HookContext
     from UserPromptSubmit_modules.cognitive_enhancers import cognitive_enhancers
 
