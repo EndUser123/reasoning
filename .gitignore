@@ -1,0 +1,5 @@
+
+# Session state artifacts
+.claude/
+.evidence/
+.state/
