@@ -19,10 +19,11 @@ import json
 import os
 import re
 import sys
+import traceback
 from pathlib import Path
 
 
-def _resolve_reasoning_package() -> Path:
+def _resolve_reasoning_package() -> Path | None:
     """Find the reasoning package regardless of hook install location."""
     env_path = os.environ.get("REASONING_PKG_PATH", "").strip()
     candidates = []
@@ -36,17 +37,39 @@ def _resolve_reasoning_package() -> Path:
     for candidate in candidates:
         if (candidate / "reasoning" / "config.py").exists():
             return candidate
+    return None
 
-    raise RuntimeError("Could not locate reasoning package")
 
+_reasoning_pkg = _resolve_reasoning_package()
+if _reasoning_pkg is None:
+    print(
+        "[Stop_reasoning_quality_gate] ERROR: Could not locate reasoning package. "
+        "Checked: REASONING_PKG_PATH env var, parent directories, P:/packages/reasoning. "
+        "Hook will pass-through (fail-open).",
+        file=sys.stderr,
+    )
+    REASONING_PKG = None
+else:
+    REASONING_PKG = _reasoning_pkg
+    sys.path.insert(0, str(REASONING_PKG))
 
-REASONING_PKG = _resolve_reasoning_package()
-sys.path.insert(0, str(REASONING_PKG))
+# Conditional imports - only load if reasoning package was found
+if REASONING_PKG is not None:
+    try:
+        from reasoning.config import Mode, ReasoningConfig
+        from reasoning.modes.sequential import SequentialMode
+        REASONING_MODE_AVAILABLE = True
+    except Exception as e:
+        print(
+            f"[Stop_reasoning_quality_gate] WARNING: Could not import reasoning modules: {e}. "
+            "Hook will pass-through (fail-open).",
+            file=sys.stderr,
+        )
+        REASONING_MODE_AVAILABLE = False
+else:
+    REASONING_MODE_AVAILABLE = False
 
-from reasoning.config import Mode, ReasoningConfig
-from reasoning.modes.sequential import SequentialMode
-
-LOG_FILE = REASONING_PKG / "hook_usage.log"
+LOG_FILE = Path("P:/packages/reasoning/hook_usage.log") if REASONING_PKG else None
 filter_stats = {"applied": 0, "skipped": 0, "improved": 0, "errors": 0}
 
 
@@ -132,6 +155,9 @@ def should_apply_reflection(response: str) -> tuple[bool, str]:
 def apply_self_reflection(response: str) -> str | None:
     """Apply self-reflection to improve response quality."""
     global filter_stats
+
+    if not REASONING_MODE_AVAILABLE:
+        return None
 
     try:
         config = ReasoningConfig(mode=Mode.SEQUENTIAL)
