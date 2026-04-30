@@ -19,8 +19,8 @@ from reasoning.modes.sequential import SequentialMode
 class CognitiveMode(SequentialMode):
     """Cognitive Engine reasoning mode (placeholder implementation).
 
-    TODO: Implement full cognitive features:
-    - 6-stage Bloom's Taxonomy (DEFINE → RESEARCH → ANALYZE → HYPOTHESIZE → VERIFY → SYNTHESIZE)
+    Roadmap — full cognitive engine features (blocked on cuba-thinking integration):
+    - 6-stage Bloom's Taxonomy (DEFINE -> RESEARCH -> ANALYZE -> HYPOTHESIZE -> VERIFY -> SYNTHESIZE)
     - NLI contradiction detection (DeBERTa-v3-xsmall or API-based)
     - MCTS forced backtracking
     - Anti-hallucination checks (9 checks)

@@ -17,7 +17,7 @@ from reasoning.modes.sequential import SequentialMode
 class GraphMode(SequentialMode):
     """Graph reasoning mode (placeholder implementation).
 
-    TODO: Implement full graph features:
+    Roadmap — full graph features (deferred beyond initial integration):
     - Branch management (create, merge, delete branches)
     - Cross-references between thoughts
     - Semantic search across branches

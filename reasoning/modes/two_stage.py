@@ -15,7 +15,7 @@ from reasoning.modes.sequential import SequentialMode
 class TwoStageMode(SequentialMode):
     """Two-Stage reasoning mode (placeholder implementation).
 
-    TODO: Implement full two-stage features:
+    Roadmap — full two-stage features (deferred beyond initial integration):
     - Stage 1: Reasoning stage (deep analysis, exploration)
     - Stage 2: Coding/response stage (actionable output)
     - Handoff between stages
