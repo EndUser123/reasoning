@@ -69,7 +69,15 @@ if REASONING_PKG is not None:
 else:
     REASONING_MODE_AVAILABLE = False
 
-LOG_FILE = Path("P:/packages/reasoning/hook_usage.log") if REASONING_PKG else None
+def _resolve_log_path(reasoning_pkg: Path | None) -> Path:
+    """Resolve log path to project-local .claude/logs/ directory."""
+    project_dir = os.environ.get("CLAUDE_PROJECT_DIR", "").strip()
+    if project_dir and reasoning_pkg:
+        return Path(project_dir) / ".claude" / "logs" / "reasoning" / "hook_usage.log"
+    return Path("P:/packages/reasoning/hook_usage.log")
+
+
+LOG_FILE = _resolve_log_path(REASONING_PKG)
 filter_stats = {"applied": 0, "skipped": 0, "improved": 0, "errors": 0}
 
 

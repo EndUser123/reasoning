@@ -24,7 +24,15 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List
 
-LOG_FILE = Path("P:/packages/reasoning/hook_usage.log")
+def _resolve_log_path() -> Path:
+    """Resolve log path to project-local .claude/logs/ directory."""
+    project_dir = os.environ.get("CLAUDE_PROJECT_DIR", "").strip()
+    if project_dir:
+        return Path(project_dir) / ".claude" / "logs" / "reasoning" / "hook_usage.log"
+    return Path("P:/packages/reasoning/hook_usage.log")
+
+
+LOG_FILE = _resolve_log_path()
 
 
 def load_logs(hours: int = 24) -> List[Dict]:

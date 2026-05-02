@@ -49,6 +49,19 @@ def _resolve_reasoning_package() -> Path:
     raise RuntimeError("Could not locate reasoning package")
 
 
+def _resolve_log_path(reasoning_pkg: Path) -> Path:
+    """Resolve log path to project-local .claude/logs/ directory.
+
+    If CLAUDE_PROJECT_DIR is set, write to project-local logs so each project
+    gets its own isolated hook_usage.log. Otherwise fall back to package dir.
+    """
+    project_dir = os.environ.get("CLAUDE_PROJECT_DIR", "").strip()
+    if project_dir:
+        log_dir = Path(project_dir) / ".claude" / "logs" / "reasoning"
+        return log_dir / "hook_usage.log"
+    return reasoning_pkg / "hook_usage.log"
+
+
 # Add reasoning package to path
 REASONING_PKG = _resolve_reasoning_package()
 sys.path.insert(0, str(REASONING_PKG))
@@ -56,8 +69,8 @@ sys.path.insert(0, str(REASONING_PKG))
 from reasoning.config import Mode, ReasoningConfig
 from reasoning.modes.multi_agent import MultiAgentMode
 
-# Usage logging
-LOG_FILE = REASONING_PKG / "hook_usage.log"
+# Usage logging — project-local when CLAUDE_PROJECT_DIR is set
+LOG_FILE = _resolve_log_path(REASONING_PKG)
 
 # Performance statistics (in-memory, per-session)
 filter_stats = {"applied": 0, "skipped": 0, "errors": 0}
